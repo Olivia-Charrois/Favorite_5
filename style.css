@@ -8,26 +8,25 @@ body {
 .menu {
     list-style: none;
     font-family: cursive;
-    position:fixed;
-    top: 10px;
-    right: 40px;
+    position: fixed;
+    top: 0px;
     z-index: 10;
     cursor: pointer;
+    background-color: cyan;
 }
 
 .links {
-    float: left;
     color: crimson;
-    padding-top: 5px;
-    padding-left: 9px;
-    padding-right: 9px;
-    padding-bottom: 5px;
+    padding-left: 33px;
+    padding-right: 33px;
     font-family: cursive;
-    font-size: 18px;
+    font-size: 20px;
+    display: inline;
 }
 
 .links:hover {
-    background-color:aqua;
+    font-size: 25px;
+    text-decoration: underline;
 }
 
 .profile {
@@ -65,6 +64,7 @@ h1 {
     line-height: 1.2;
     font-family: cursive;
 }
+
 #bio {
     padding: 50px;
     text-align: center;
@@ -91,19 +91,47 @@ p {
     text-align: center;
     vertical-align: middle
 }
-html{
-scroll-behavior: smooth;
+
+#MY INSPIRATION a {
+    text-shadow: none !important;
+    text-decoration: underline !important;
+    color: blue !important;
 }
-a{
-text-decoration: none;
+
+html {
+    scroll-behavior: smooth;
 }
-.article:hover{
-color:cyan;
+
+a {
+    text-decoration: none;
 }
-img:hover{
-transform: scale(0.9);
+
+.article:hover {
+    color: cyan;
 }
-img{
-transition:transform.2s;
-border: 10px solid black;
+
+img:hover {
+    transform: scale(0.9);
 }
+
+img {
+    transition: transform.2s;
+    border: 10px solid black;
+}
+
+#CONTACTS {
+    background: firebrick;
+}
+
+#CONTACTS iframe {
+    width: 100%;
+
+
+    .contact_1 h3 {
+        display: inline;
+    }
+
+    .contact_1 a {
+        color: white;
+        text-shadow: none;
+    }
